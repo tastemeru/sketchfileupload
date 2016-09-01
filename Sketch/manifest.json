@@ -1,0 +1,34 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "All Artboards",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "shortcut": "option command r",
+      "identifier" : "all"
+    },
+    {
+      "script" : "script.js",
+      "name" : "Change Token",
+      "handlers" : {
+        "run" : "changeTokens"
+      },
+      "identifier" : "change"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "all",
+      "change"
+    ],
+    "title" : "ArtDir"
+  },
+  "identifier" : "com.example.sketch.f94bb18f-8c54-4a2a-9046-ef54ec5bd58a",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "artdir"
+}
